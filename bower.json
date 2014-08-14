@@ -1,0 +1,16 @@
+{
+  "name": "the-minnpost-stack-presentation",
+  "version": "0.0.1",
+  "homepage": "https://github.com/zzolo/the-minnpost-stack-presentation",
+  "authors": [
+    "Alan Palazzolo <github@zzolo.org>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "reveal.js": "~2.6.2",
+    "jquery": "~2.1.1",
+    "underscore": "~1.6.0"
+  }
+}

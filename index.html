@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The MinnPost Stack</title>
+    <meta name="author" content="Alan Palazzolo">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <base target="_blank">
+
+    <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
+    <link rel="stylesheet" href="bower_components/reveal.js/css/theme/simple.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="bower_components/reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!--[if lt IE 9]>
+      <script src="bower_components/reveal.js/lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="custom-map-overlay" class="disabled"></div>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h1>The MinnPost Stack</h1>
+
+          <aside class="notes">
+          </aside>
+        </section>
+
+
+
+
+
+        <section data-background="#F6AC23">
+          <h3>Slides for this presentation are at <br> <a href="http://zzolo.org/the-minnpost-stack-presentation/">zzolo.org/the-minnpost-stack-presentation</a></h3>
+
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-background="#F6AC23">
+          <h2>Alan Palazzolo</h2>
+          <h3>Interactive News Developer at <a href="http://minnpost.com">MinnPost</a></h3>
+        </section>
+
+
+
+
+
+        <section data-background="#23D6F6">
+          <h2>What do we do?</h2>
+        </section>
+
+        <section data-background="#23D6F6">
+          <p>Data-driven, interactive, visual pieces</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_21538/icon_21538.svg" /></div>
+        </section>
+
+        <section data-background="#23D6F6">
+          <p>We tell the news with pictures</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_40157/icon_40157.svg" /></div>
+        </section>
+
+        <section data-background="images/MinnPost-elections-dashboard-preview.png">
+          <a class="page-block-link" href="http://www.minnpost.com/results#dashboard" target="_blank"></a>
+        </section>
+
+        <section data-background="images/MinnPost-greenline-preview.png">
+          <a class="page-block-link" href="http://www.minnpost.com/data/2014/06/who-lives-green-line" target="_blank"></a>
+        </section>
+
+        <section data-background="images/MinnPost-hennepin-county-candidate-preview.png">
+          <a class="page-block-link" href="http://www.minnpost.com/data/2014/04/last-minute-hennepin-county-candidate-picking-tool" target="_blank"></a>
+        </section>
+
+        <section data-background="images/MinnPost-metro-parcels-preview.png">
+          <a class="page-block-link" href="http://www.minnpost.com/data/2014/05/mapping-residential-parcel-values-twin-cities-metro" target="_blank"></a>
+        </section>
+
+        <section data-background="images/MinnPost-recent-weather-app-preview.png">
+          <a class="page-block-link" href="http://www.minnpost.com/data/2014/03/are-these-temperatures-normal" target="_blank"></a>
+        </section>
+
+        <section data-background="images/MinnPost-snow-emergency-preview.png">
+          <a class="page-block-link" href="http://www.minnpost.com/snow" target="_blank"></a>
+        </section>
+
+        <section data-background="images/MinnPost-mcfadden-unemployment-preview.png">
+          <a class="page-block-link" href="http://www.minnpost.com/macro-micro-minnesota/2014/08/double-checking-data-mcfadden-overstates-unemployment-northern-minneso" target="_blank"></a>
+        </section>
+
+        <section data-background="images/MinnPost-lacu-preview.png">
+          <a class="page-block-link" href="http://www.minnpost.com/data/2014/06/lacu-13000-lakes-visualized" target="_blank"></a>
+        </section>
+
+
+
+
+
+
+
+        <section data-background="#F623D6">
+          <h2>Constraints</h2>
+
+          <div class="visual-aid"><img src="images/icons/icon_9534/icon_9534.svg" /></div>
+        </section>
+
+        <section data-background="#F623D6">
+          <p>CMS</p>
+        </section>
+
+        <section data-background="#F623D6">
+          <p>Lasts forever</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_3407/icon_3407.svg" /></div>
+        </section>
+
+        <section data-background="#F623D6">
+          <p>Short build timeline</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_7286/icon_7286.svg" /></div>
+        </section>
+
+        <section data-background="#F623D6">
+          <p>(usually) short lifespan</p>
+        </section>
+
+        <section data-background="#F623D6">
+          <p>IE8</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_63296/icon_63296.svg" /></div>
+        </section>
+
+        <section data-background="#F623D6">
+          <p>$$$</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_9446/icon_9446.svg" /></div>
+        </section>
+
+        <section data-background="#F623D6">
+          <p>GO!</p>
+        </section>
+
+
+
+
+
+        <section data-background="#98ECFB">
+          <h2>Everything is frontend</h2>
+        </section>
+
+        <section data-background="#98ECFB">
+          <p>Drupal</p>
+        </section>
+
+        <section data-background="#98ECFB">
+          <p>Embedded HTML/CSS/JS</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_32502/icon_32502.svg" /></div>
+        </section>
+
+        <section data-background="#98ECFB">
+          <p>Literally embedded</p>
+        </section>
+
+        <section data-background="#98ECFB">
+          <p>Hosting libraries on S3</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_29810/icon_29810.svg" /></div>
+        </section>
+
+
+
+
+
+        <section data-background="#AC23F6">
+          <h2>SASS / Compass</h2>
+        </section>
+
+        <section data-background="#AC23F6">
+          <p>Nested styling, variables</p>
+        </section>
+
+        <section data-background="#AC23F6">
+          <p>Compile step and background task</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_37433/icon_37433.svg" /></div>
+        </section>
+
+
+
+
+
+        <section data-background="#6DF623">
+          <h2>Grunt</h2>
+        </section>
+
+        <section data-background="#6DF623">
+          <p>What else can we compile? <br>
+          What other tasks can we run?</p>
+        </section>
+
+        <section data-background="#6DF623">
+          <p>JSLint</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_57766/icon_57766.svg" /></div>
+        </section>
+
+        <section data-background="#6DF623">
+          <p>Concatenate</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_60035/icon_60035.svg" /></div>
+        </section>
+
+        <section data-background="#6DF623">
+          <p>Embed/compile templates</p>
+        </section>
+
+        <section data-background="#6DF623">
+          <p>Minify / UglifyJS</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_12074/icon_12074.svg" /></div>
+        </section>
+
+        <section data-background="#6DF623">
+          <p>HTTP server</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_33354/icon_33354.svg" /></div>
+        </section>
+
+
+
+
+
+
+        <section data-background="#F6AC23">
+          <h2>What about embedding?</h2>
+        </section>
+
+        <section data-background="#F6AC23">
+          <p>Deploy to S3</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_27276/icon_27276.svg" /></div>
+        </section>
+
+        <section data-background="#F6AC23">
+          <p>Minimal amount of HTML to embed</p>
+        </section>
+
+
+
+
+
+
+        <section data-background="#F623D6">
+          <h2>Managing modules and libraries</h2>
+        </section>
+
+        <section data-background="#F623D6">
+          <p>RequireJS / Almond</p>
+        </section>
+
+        <section data-background="#F623D6">
+          <p>Bower</p>
+        </section>
+
+        <section data-background="#F623D6">
+          <p>Bower source map supplement</p>
+        </section>
+
+
+
+
+
+
+        <section data-background="#F8C25D">
+          <h2>JS Libraries</h2>
+        </section>
+
+        <section data-background="#F8C25D">
+          <p>Always aim for lightweight</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_22511/icon_22511.svg" /></div>
+        </section>
+
+        <section data-background="#F8C25D">
+          <p>jQuery + underscore</p>
+        </section>
+
+        <section data-background="#F8C25D">
+          <p>Backbone (for data-heavy projects)</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_15408/icon_15408.svg" /></div>
+        </section>
+
+        <section data-background="#F8C25D">
+          <p>Ractive (for interface-heavy projects)</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_7767/icon_7767.svg" /></div>
+        </section>
+
+        <section data-background="#F8C25D">
+          <p>Moment.js (if dates and times)</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_4988/icon_4988.svg" /></div>
+        </section>
+
+        <section data-background="#F8C25D">
+          <p>Leaflet (for maps)</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_27300/icon_27300.svg" /></div>
+        </section>
+
+        <section data-background="#F8C25D">
+          <p>Highcharts (for charts)</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_5268/icon_5268.svg" /></div>
+        </section>
+
+        <section data-background="#F8C25D">
+          <p>D3 (if necessary)</p>
+        </section>
+
+        <section data-background="#F8C25D">
+          <p>Depends on the project</p>
+        </section>
+
+
+
+
+
+
+        <section data-background="#F6236D">
+          <h2>Data processing</h2>
+        </section>
+
+        <section data-background="#F6236D">
+          <p>NodeJS (though it doesn't matter)</p>
+        </section>
+
+        <section data-background="#F6236D">
+          <p>Makefile</p>
+        </section>
+
+        <section data-background="#F6236D">
+          <p>Documentation of original to JSON</p>
+        </section>
+
+
+
+
+
+
+        <section data-background="#D6F623">
+          <h2>Data</h2>
+        </section>
+
+        <section data-background="#D6F623">
+          <p>Embed</p>
+        </section>
+
+        <section data-background="#D6F623">
+          <p>JSON files</p>
+        </section>
+
+        <section data-background="#D6F623">
+          <p>Google Spreadsheets</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_52455/icon_52455.svg" /></div>
+        </section>
+
+        <section data-background="#D6F623">
+          <p>Heroku</p>
+        </section>
+
+        <section data-background="#D6F623">
+          <p>ScraperWiki</p>
+        </section>
+
+
+
+
+
+
+        <section data-background="#5DE1F8">
+          <h2>New project every week</h2>
+        </section>
+
+        <section data-background="#5DE1F8">
+          <p>Yeoman</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_10035/icon_10035.svg" /></div>
+        </section>
+
+        <section data-background="#5DE1F8">
+          <p>Style guide</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_31255/icon_31255.svg" /></div>
+        </section>
+
+
+
+
+
+
+        <section data-background="#23F6AC">
+          <h2>Other stuff</h2>
+        </section>
+
+        <section data-background="#23F6AC">
+          <p>Browserstack</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_58996/icon_58996.svg" /></div>
+        </section>
+
+        <section data-background="#23F6AC">
+          <p>Bees with Machine Guns and Locust.io</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_6063/icon_6063.svg" /></div>
+        </section>
+
+        <section data-background="#23F6AC">
+          <p>Default to open</p>
+        </section>
+
+
+
+
+
+        <section data-background="#D6F623">
+          <h2>The future</h2>
+
+          <div class="visual-aid"><img src="images/icons/icon_10415/icon_10415.svg" /></div>
+        </section>
+
+        <section data-background="#D6F623">
+          <p>ES6</p>
+        </section>
+
+        <section data-background="#D6F623">
+          <p>Gulp (and still Grunt)</p>
+        </section>
+
+        <section data-background="#D6F623">
+          <p>Source maps</p>
+        </section>
+
+        <section data-background="#D6F623">
+          <p>Tests</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_37852/icon_37852.svg" /></div>
+        </section>
+
+        <section data-background="#D6F623">
+          <p>Google Analytics events</p>
+        </section>
+
+        <section data-background="#D6F623">
+          <p>Track.js</p>
+
+          <div class="visual-aid"><img src="images/icons/icon_13234/icon_13234.svg" /></div>
+        </section>
+
+        <section data-background="#D6F623">
+          <p>Livereload / BrowserSync</p>
+        </section>
+
+
+
+
+
+        <!-- That's it -->
+        <section>
+          <h1>Thanks.</h1>
+          <h2>Questions?</h2>
+
+          <h4>&nbsp;</h4>
+          <h4>Code for slides are on <a href="https://github.com/zzolo/the-minnpost-stack-presentation">Github</a>.</h4>
+
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section>
+          <ul class="">
+            <li><a href="http://thenounproject.com/">Icons from the Noun Project</a></li>
+            <li>http://thenounproject.com/term/chart/21538/</li>
+            <li>http://thenounproject.com/term/chart/40157/</li>
+            <li>http://thenounproject.com/term/limit/9534/</li>
+            <li>http://thenounproject.com/term/infinity/3407/</li>
+            <li>http://thenounproject.com/term/architect/7286/</li>
+            <li>http://thenounproject.com/term/ghost/63296/</li>
+            <li>http://thenounproject.com/term/poor/9446/</li>
+            <li>http://thenounproject.com/term/code/32502/</li>
+            <li>http://thenounproject.com/term/cloud/29810/</li>
+            <li>http://thenounproject.com/term/flow-chart/37433/</li>
+            <li>http://thenounproject.com/term/thumbs-up/57766/</li>
+            <li>http://thenounproject.com/term/join/60035/</li>
+            <li>http://thenounproject.com/term/person/12074/</li>
+            <li>http://thenounproject.com/term/server/33354/</li>
+            <li>http://thenounproject.com/term/delivery/27276/</li>
+            <li>http://thenounproject.com/term/balloon/22511/</li>
+            <li>http://thenounproject.com/term/man/15408/</li>
+            <li>http://thenounproject.com/term/cursor/7767/</li>
+            <li>http://thenounproject.com/term/clock/4988/</li>
+            <li>http://thenounproject.com/term/map/27300/</li>
+            <li>http://thenounproject.com/term/chart/5268/</li>
+            <li>http://thenounproject.com/term/spreadsheet/52455/</li>
+            <li>http://thenounproject.com/term/guard/10035/</li>
+            <li>http://thenounproject.com/term/color-fan/31255/</li>
+            <li>http://thenounproject.com/term/browser/58996/</li>
+            <li>http://thenounproject.com/term/bee/6063/</li>
+            <li>http://thenounproject.com/term/robot/10415/</li>
+            <li>http://thenounproject.com/term/field-sobriety-test/37852/</li>
+            <li>http://thenounproject.com/term/paw-print/13234/</li>
+          </ul>
+        </section>
+
+
+      </div>
+    </div>
+
+    <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+    <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>
